@@ -1,0 +1,90 @@
+body{
+    font-family: Arial;
+    background-color: #e6e6ff;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    /* width: 100%; */
+    /* border: solid; */
+}
+
+header img{
+    width: 220px; 
+	height: 220px;
+    border: solid 2px white;
+    padding: 10px;
+	border-radius: 50%;
+    background-color: white;
+    margin-left: auto; /* Set left margin to auto for centering */
+    margin-right: auto; /* Set right margin to auto for centering */
+    display: block; /* Ensures that the margin:auto works */
+}
+
+header h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Libre Bodoni', serif;
+    font-weight: normal;
+    font-size: 3rem;
+    /* border: solid; */
+}
+
+.container{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.contacts{
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 220px;
+    margin-right: 100px;
+    /* border: solid; */
+    width: 50%;
+    
+}
+.links{
+    flex-grow: 1;
+    text-align: left;
+    /* border: solid; */
+    width: 50%;
+    
+}
+
+.contacts p{
+    margin: 10px;
+    padding: 10px;
+    line-height: .25;
+}
+
+.links p{
+    margin: 10px;
+    padding: 10px;
+    line-height: .25;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+main{
+    margin: 45px;
+}
+
+section{
+    border-top: solid 5px;
+}
+
+.title h2{
+    font-family: 'Libre Bodoni', serif;
+    font-weight: normal;
+}
